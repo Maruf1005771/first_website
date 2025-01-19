@@ -1,0 +1,33 @@
+a:hover {
+    color: blue;
+    font-size: 25px;
+}
+
+body{
+  background: url(image/olga-thelavart-vS3idIiYxX0-unsplash.jpg);
+}
+
+.fontsiz {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .9em;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+
+.flex-containercol {
+    display: flex;
+    flex-direction: column end;
+    gap: 9px;
+    justify-content: space-around;
+  }
+
+.img-container {
+   float: right;
+
+}
